@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+  <ul>
+    <li>Email: <ul>
+        <li>es.hectorescobar@gmail.com</li>
+      </ul>
+    </li>
+    <li>Celular:<ul>
+        <li>8995467603</li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <form action="mailto:es.hectorescobar@gmail.com" method="post" enctype="text/plain" autocomplete="off">
+    <label for="name">Write your name here:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your name here" required="true">
+    <br>
+    <label for="email">Write:</label><br>
+    <input type="email" name="email" id="email" required="true" placeholder="your email here">
+    <br>
+    <label for="message">Write your message here:</label><br>
+    <textarea name="message" id="message" placeholder="write your message here" rows="8" cols="80"></textarea>
+    <br>
+    <input type="submit" name="submit" value="submit">
+  </form>
+</body>
+
+</html>
